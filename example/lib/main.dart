@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:screen_identifier/screen_identifier.dart';
 
 void main() {
-  /// [OPTIONAL] This is the custom minimum width set for each screen size.
+  // [OPTIONAL] customize default minimum width value in each screen size classes
   ScreenIdentifier.instance.setMinimalWidth(
     xxxl: 1800,
     xxl: 1400,

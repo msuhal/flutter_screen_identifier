@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'screen_identifier.dart';
 
 class ScreenIdentifierBuilder extends StatelessWidget {
+  /// It's a widget that takes a builder function and returns a widget that is built based on the screen
+  /// size
   const ScreenIdentifierBuilder({
     super.key,
     required this.builder,
@@ -18,12 +20,15 @@ class ScreenIdentifierBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // It's getting the screen width.
     final screenWidth = MediaQuery.of(context).size.width;
     return LayoutBuilder(
       builder: (context, constraints) {
         return builder(
           context,
-          ScreenIdentifier.init(relative ? constraints.maxWidth : screenWidth),
+          ScreenIdentifier.init(
+            relative ? constraints.maxWidth : screenWidth,
+          ),
         );
       },
     );

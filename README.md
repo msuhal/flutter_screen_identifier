@@ -1,11 +1,11 @@
 # ScreenIdentifier
 
-[![pub package](https://img.shields.io/pub/v/flutter_screen_identifier.svg?style=flat-square)](https://pub.dartlang.org/packages/flutter_screen_identifier)
+[![pub package](https://img.shields.io/pub/v/screen_identifier.svg?style=flat-square)](https://pub.dartlang.org/packages/screen_identifier)
 [![license](https://img.shields.io/github/license/msuhal/flutter_screen_identifier?style=flat)](https://github.com/msuhal/flutter_screen_identifier)
 [![codecov](https://codecov.io/gh/msuhal/flutter_screen_identifier/branch/master/graph/badge.svg)](https://codecov.io/gh/msuhal/flutter_screen_identifier)
 
 
-A simple widget to adjust multiple values based on screen size or parent widget size.
+A package provides an easy way to adjust multiple values based on screen size or parent widget size in Flutter project.
 
 ![example image](https://github.com/msuhal/flutter_screen_identifier/blob/master/images/example.gif?raw=true)
 

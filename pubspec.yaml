@@ -1,5 +1,5 @@
 name: screen_identifier
-description: A simple widget to adjust multiple values based on screen size or parent widget size
+description: A package provides an easy way to adjust multiple values based on screen size or parent widget size in Flutter project.
 version: 0.0.1
 repository: https://github.com/msuhal/flutter_screen_identifier
 issue_tracker: https://github.com/msuhal/flutter_screen_identifier/issues
