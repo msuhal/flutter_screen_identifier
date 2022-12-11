@@ -5,10 +5,10 @@ class ScreenIdentifierBuilder extends StatelessWidget {
   /// It's a widget that takes a builder function and returns a widget that is built based on the screen
   /// size
   const ScreenIdentifierBuilder({
-    super.key,
+    Key? key,
     required this.builder,
     this.relative = false,
-  });
+  }) : super(key: key);
 
   final Widget Function(
     BuildContext context,
